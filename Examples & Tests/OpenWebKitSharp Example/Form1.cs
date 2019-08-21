@@ -164,6 +164,7 @@ namespace OpenWebKitSharp_Test
         private void toolStripMenuItem1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("This will test the downloading of GT Web Browser 3 installer.");
+
             webKitBrowser1.Navigate("http://gtwebbrowser.webs.com//Downloads/GT%20Web%20Browser%203%20Setup.msi");
         }
 
